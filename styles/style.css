@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header{
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 5rem;
+}
+
+.nav-link{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #475569;
+}
+
+.nav-link:hover{
+    color: #482ff7;
+}
+
+.nav-logo {
+    font-size: 2.1rem;
+    font-weight: 500;
+    color: #482ff7;
+}
+
+.home-welcome{
+  
+    height: 80rem;
+    width: 100%;
+   background-image: url("https://www.ktpress.rw/wp-content/uploads/2019/02/Coding-academy.jpg");
+    background-size: cover;
+
+}
+.heading-description{
+     position: absolute;
+    margin: 42rem 0 0 8rem;
+    color: white;
+    font-size: 21px;
+}
+
+
+
+.heading-description button {
+    width: 14rem;
+    height: 4rem;
+    border: none;
+    border-radius: 3px;
+    font-size: 19px;
+    background: #2a3663;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    height: 17rem;
+    padding: 3rem 0 0 0;
+    background: #2a3663;
+    color: white;
+    margin: 3rem 0 0 0;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer div h2{
+    font-size: 20px;
+}
+.programmes {
+    display: flex;
+    flex-direction: column;
+    line-height: 24px;
+    font-size: 13px;
+}
+.images-des{
+  
+    height: 30rem;
+    width: 100%;
+   background-image: url("https://thisisafrica.me/wp-content/uploads/2019/03/53037997_1518563544945991_2071711568675995648_o.jpg");
+    background-size: cover;
+
+}
+.about-general-description {
+    width: 122rem;
+    margin: 3rem auto;
+    font-size: 15px;
+    line-height: 19px;
+    font-weight: 200;
+}
+
+.underline {
+    width: 10rem;
+    height: 0.4rem;
+    background: yellow;
+    margin: 0.4rem 0 2rem 0;
+}
+.courses {
+    width: 43rem;
+    margin: 3rem 0 0rem 44rem;
+    font-size: 16px;
+    line-height: 30px;
+}
